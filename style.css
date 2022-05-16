@@ -1,0 +1,201 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #FAFAFA;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+.traveler {
+    width: 100%;
+}
+
+.header-image {
+    margin: auto;
+    padding: 60px 75px 0 75px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #000000;
+}
+
+.underlined {
+    border: 1px solid #407BFF;
+    width: 60px;
+    align-self: center;
+}
+
+h2 {
+    font-size: 16px;
+    color: #000000;
+}
+
+p {
+    color: #8B8B8B;
+}
+
+.grey {
+    font-size: 14px;
+    height: 40px;
+    width: 220px;
+    color: white;
+    text-align: center;
+    background-color: #8B8B8B;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+.blue {
+    font-size: 14px;
+    height: 40px;
+    width: 195px;
+    color: white;
+    text-align: center;
+    background-color: #407BFF;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+.buttons {
+    display: inline-block;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.upper-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    width: 45px;
+    height: 40px;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    color: #8B8B8B;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    box-shadow: 0 4px 6px #407BFF1F;
+}
+
+.card-text {
+    font-size: 13px;
+    padding: 30px 20px 20px 10px;
+}
+
+.services,
+.delegates {
+    padding-top: 60px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 640px) {
+    .container {
+        margin: 0 20px;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    p {
+        padding: 0 90px;
+    }
+
+    .blue {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .grey {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        margin: 15px;
+    }
+
+    .card-text {
+        padding: 20px 15px;
+    }
+
+    .icons {
+        align-self: center;
+        padding: 40px 0 20px 0;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .container {
+        margin: 60px 80px;
+    }
+
+    h1,
+    h2 {
+        text-align: left;
+    }
+
+    .underlined {
+        align-self: baseline;
+    }
+    
+    p {
+        text-align: left;
+        padding: 0;
+    }
+
+    .buttons {
+        text-align: center;
+    }
+
+    .upper {
+        display: flex;
+    }
+
+    .header-image {
+        order: 1;
+        padding: 0 0 0 90px;
+        margin: auto;
+        width: 426px;
+        flex-shrink: 0;
+    }
+
+    .ourServices {
+        order: 1;
+    }
+
+    .services,
+    .delegates {
+        display: flex;
+    }
+
+    .card {
+        width: 170px;
+    }
+}
