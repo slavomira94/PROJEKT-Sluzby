@@ -70,7 +70,8 @@ p {
 }
 
 .buttons {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     padding-top: 30px;
     align-items: center;
 }
